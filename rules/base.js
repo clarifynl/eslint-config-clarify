@@ -3,6 +3,10 @@ module.exports = {
 		"airbnb"
 	],
 
+	"plugins": [
+		"prettier"
+	],
+
 	"rules": {
 		"arrow-parens": ["error", "as-needed"],
 		"comma-dangle": ["error", "never"],
