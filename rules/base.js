@@ -82,7 +82,7 @@ module.exports = {
 				"printWidth": 100,
 				"useTabs": true,
 				"jsxSingleQuote": false,
-				"trailingComma": "none"
+				"trailingComma": "none",
 				"arrowParens": "avoid",
 				"proseWrap": "preserve",
 				"endOfLine": "lf"
