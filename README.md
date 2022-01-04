@@ -7,7 +7,7 @@ It provides two configurations, one for regular JS projects and one specifically
 ## Installation:
 
 ```
-npm install --save-dev eslint-config-clarify
+npm install --save-dev github:clarifynl/eslint-config-clarify     
 ```
 
 In your `package.json`, add the following:
