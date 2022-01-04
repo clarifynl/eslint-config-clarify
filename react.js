@@ -1,6 +1,7 @@
 module.exports = {
 	"extends": [
-		"./rules/react"
+		"./rules/react",
+		"prettier"
 	],
 
 	"parser": "@babel/eslint-parser",

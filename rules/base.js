@@ -10,11 +10,7 @@ module.exports = {
 		"import/newline-after-import": "off",
 		"import/no-unresolved": "off",
 		"indent": ["error", "tab"],
-		"key-spacing": ["error", {
-			"beforeColon": false,
-			"afterColon": true,
-			"align": "colon"
-		}],
+		"key-spacing": "off",
 		"lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
 		"newline-before-return": "error",
 		"no-mixed-operators": ["error", {
@@ -36,10 +32,11 @@ module.exports = {
 		"no-plusplus": "off",
 		"no-tabs": "off",
 		"object-curly-spacing": ["error", "never"],
+		"object-curly-newline": "off",
 		"padded-blocks": ["error", {
 			"blocks": "never",
 			"switches": "never",
-			"classes": "always"
+			"classes": "never"
 		}],
 		"padding-line-between-statements": [
 			"error", {

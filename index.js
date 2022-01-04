@@ -1,6 +1,7 @@
 module.exports = {
 	"extends": [
-		"./rules/base"
+		"./rules/base",
+		"prettier"
 	],
 
 	"parser": "@babel/eslint-parser",
