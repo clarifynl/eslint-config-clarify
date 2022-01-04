@@ -70,6 +70,23 @@ module.exports = {
 		],
 		"prefer-destructuring": "off",
 		"quote-props": ["error", "consistent"],
-		"wrap-iife": ["error", "inside"]
+		"wrap-iife": ["error", "inside"],
+		"prettier/prettier": [
+			'error',
+			{
+				"semi": true,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"brackerSameLine": false,
+				"quoteProps": "consistent",
+				"printWidth": 100,
+				"useTabs": true,
+				"jsxSingleQuote": false,
+				"trailingComma": "none"
+				"arrowParens": "avoid",
+				"proseWrap": "preserve",
+				"endOfLine": "lf"
+			}
+		]
 	}
 }

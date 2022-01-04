@@ -1,7 +1,8 @@
 module.exports = {
 	"extends": [
 		"./base",
-		"airbnb/hooks"
+		"airbnb/hooks",
+		"prettier"
 	],
 
 	"rules": {
