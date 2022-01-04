@@ -3,10 +3,6 @@ module.exports = {
 		"airbnb"
 	],
 
-	"plugins": [
-		"prettier"
-	],
-
 	"rules": {
 		"arrow-parens": ["error", "as-needed"],
 		"comma-dangle": ["error", "never"],
@@ -74,23 +70,6 @@ module.exports = {
 		],
 		"prefer-destructuring": "off",
 		"quote-props": ["error", "consistent"],
-		"wrap-iife": ["error", "inside"],
-		"prettier/prettier": [
-			'error',
-			{
-				"semi": true,
-				"singleQuote": true,
-				"bracketSpacing": false,
-				"brackerSameLine": false,
-				"quoteProps": "consistent",
-				"printWidth": 100,
-				"useTabs": true,
-				"jsxSingleQuote": false,
-				"trailingComma": "none",
-				"arrowParens": "avoid",
-				"proseWrap": "preserve",
-				"endOfLine": "lf"
-			}
-		]
+		"wrap-iife": ["error", "inside"]
 	}
 }
