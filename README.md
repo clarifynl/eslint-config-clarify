@@ -14,13 +14,13 @@ In your `package.json`, add the following:
 
 ```js
 "eslintConfig": {
-	"extends": ["clarify"]
+	"extends": ["@clarifynl/clarify"]
 }
 ```
 
 Or, for React-based projects:
 ```js
 "eslintConfig": {
-	"extends": ["clarify/react"]
+	"extends": ["@clarifynl/clarify/react"]
 }
 ```
