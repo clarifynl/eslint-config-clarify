@@ -31,6 +31,7 @@ module.exports = {
 		"no-param-reassign": ["error", { "props": false}],
 		"no-plusplus": "off",
 		"no-tabs": "off",
+		"no-unused-vars": "warn",
 		"object-curly-spacing": ["error", "never"],
 		"object-curly-newline": "off",
 		"padded-blocks": ["error", {
@@ -52,10 +53,16 @@ module.exports = {
 				],
 				"next": "*"
 			},
-			{ "blankLine": "always", "prev": "*", "next": ["const", "let", "var"]},
-			{ "blankLine": "never", "prev": ["const"], "next": ["const"]},
-			{ "blankLine": "never", "prev": ["let"], "next": ["let"]},
-			{ "blankLine": "never", "prev": ["var"], "next": ["var"]},
+			{
+				"blankLine": "always",
+				"prev": "*",
+				"next": [
+					"let",
+					"const",
+					"var"
+				]
+			},
+			{ "blankLine": "any", "prev": ["const", "let", "var"], next: ["const", "let", "var"]},
 			{ "blankLine": "always", "prev": ["multiline-const"], "next": "*"},
 			{ "blankLine": "always", "prev": ["multiline-let"], "next": "*"},
 			{ "blankLine": "always", "prev": ["multiline-var"], "next": "*"},
