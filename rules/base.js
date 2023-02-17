@@ -2,13 +2,11 @@ module.exports = {
 	"extends": [
 		"airbnb"
 	],
-
 	"rules": {
 		"arrow-parens": ["error", "as-needed"],
 		"comma-dangle": ["error", "never"],
 		"dot-notation": "off",
 		"import/newline-after-import": "off",
-		"import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
 		"import/no-unresolved": "off",
 		"indent": ["error", "tab"],
 		"key-spacing": "off",
