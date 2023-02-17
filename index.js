@@ -3,7 +3,6 @@ module.exports = {
 		"./rules/base",
 		"prettier"
 	],
-
 	"parser": "@babel/eslint-parser",
 	"parserOptions": {
 		"sourceType": "module",
@@ -11,7 +10,6 @@ module.exports = {
 		"requireConfigFile": false,
 		"allowImportExportEverywhere": true
 	},
-
 	"env": {
 		"browser": true,
 		"node": true

@@ -1,9 +1,12 @@
 module.exports = {
+	"env": {
+		"browser": true,
+		"node": true
+	},
 	"extends": [
 		"./rules/react",
 		"prettier"
 	],
-
 	"parser": "@babel/eslint-parser",
 	"parserOptions": {
 		"sourceType": "module",
@@ -14,9 +17,9 @@ module.exports = {
 			"presets": ["@babel/preset-react"]
 		}
 	},
-
-	"env": {
-		"browser": true,
-		"node": true
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
 	}
 }
