@@ -1,6 +1,6 @@
 {
 	"name": "@clarifynl/eslint-config-clarify",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"description": "Clarify ESLint config",
 	"repository": {
 		"type": "git",
@@ -13,7 +13,7 @@
 		"lint:fix": "eslint --fix"
 	},
 	"main": "index.js",
-	"devDependencies": {
+	"dependencies": {
 		"@babel/eslint-parser": "^7.19.1",
 		"@babel/preset-react": "^7.18.6",
 		"eslint": "^8.32.0",
