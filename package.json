@@ -1,6 +1,6 @@
 {
 	"name": "@clarifynl/eslint-config-clarify",
-	"version": "0.11.0",
+	"version": "0.12.0",
 	"description": "Clarify ESLint config",
 	"repository": {
 		"type": "git",
