@@ -8,6 +8,7 @@ module.exports = {
 		"react/jsx-indent": ["error", "tab", {
 			"indentLogicalExpressions": true
 		}],
-		"react/react-in-jsx-scope": "off"
+		"react/react-in-jsx-scope": "off",
+		"react/jsx-props-no-spreading": "off"
 	}
 }
