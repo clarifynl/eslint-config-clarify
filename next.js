@@ -3,9 +3,6 @@ module.exports = {
 	"parserOptions": {
 		"ecmaVersion": "latest",
 		"sourceType": "module",
-		"babelOptions": {
-			presets: [require.resolve('next/babel')],
-		  },
 	},
 	"extends": ["./rules/next", "prettier"],
 	"env": {
