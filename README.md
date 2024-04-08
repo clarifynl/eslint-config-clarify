@@ -19,8 +19,17 @@ In your `package.json`, add the following:
 ```
 
 Or, for React-based projects:
+
 ```js
 "eslintConfig": {
 	"extends": ["@clarifynl/clarify/react"]
+}
+```
+
+Or, for Next-based projects:
+
+```js
+"eslintConfig": {
+	"extends": ["@clarifynl/clarify/next"]
 }
 ```
