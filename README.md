@@ -33,3 +33,12 @@ Or, for Next-based projects:
 	"extends": ["@clarifynl/clarify/next"]
 }
 ```
+
+Or, for Next-based projects with typescript:
+
+```js
+"eslintConfig": {
+	"extends": ["@clarifynl/clarify/ts-next"]
+}
+```
+
