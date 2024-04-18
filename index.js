@@ -24,7 +24,7 @@ module.exports = {
 				"sourceType": 'module',
 			},
 			"plugins": ['@typescript-eslint'],
-			"extends":['.rules/typescript']
+			"extends":['./rules/typescript']
 		}
 	],
 }
