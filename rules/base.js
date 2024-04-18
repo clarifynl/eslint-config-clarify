@@ -21,38 +21,5 @@ module.exports = {
 		"no-plusplus": "off",												// OFF: Disallow the unary operators ++ and --
 		"no-unused-vars": "warn", 											// No unused variables (eslint:recommended gives error)
 		"prefer-destructuring": "off",										// OFF: Prefer destructuring from arrays and objects
-
-		"@stylistic/js/padding-line-between-statements": ["error", {
-				"blankLine": "always",
-				"prev": [
-					"break",
-					"case",
-					"class",
-					"function",
-					"let",
-					"const",
-					"var"
-				],
-				"next": "*"
-			},
-			{
-				"blankLine": "always",
-				"prev": "*",
-				"next": [
-					"let",
-					"const",
-					"var"
-				]
-			},
-			{ "blankLine": "any", "prev": ["const", "let", "var"], "next": ["const", "let", "var"]},
-			{ "blankLine": "always", "prev": ["multiline-const"], "next": "*"},
-			{ "blankLine": "always", "prev": ["multiline-let"], "next": "*"},
-			{ "blankLine": "always", "prev": ["multiline-var"], "next": "*"},
-			{ "blankLine": "always", "prev": "*", "next": ["multiline-const"]},
-			{ "blankLine": "always", "prev": "*", "next": ["multiline-let"]},
-			{ "blankLine": "always", "prev": "*", "next": ["multiline-var"]},
-			{ "blankLine": "always", "prev": "*", "next": ["block", "block-like"]},
-			{ "blankLine": "always", "prev": ["block", "block-like"], "next": "*"}
-		],
-	}
+		"prefer-arrow-callback": [ "error", { "allowNamedFunctions": true } ], // Prefer arrow callbacks over anonymous functions
 }
