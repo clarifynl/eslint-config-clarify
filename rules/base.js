@@ -1,8 +1,5 @@
 module.exports = {
-	"extends": [
-		"airbnb",
-		"eslint:recommended",
-	],
+	"extends": ["eslint:recommended", "eslint-config-airbnb-base"],
 	"rules": {
 		"import/newline-after-import": "warn",									// Warn for new line after imports
 		"import/extensions": "off",												// OFF: Ensure consistent use of file extension within the import path

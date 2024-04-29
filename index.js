@@ -1,12 +1,9 @@
 module.exports = {
-	"extends": [
-		"./rules/base",
-		"prettier",
-	],
+	"extends": ["./rules/base", "prettier"],
 	"parser": "@babel/eslint-parser",
 	"parserOptions": {
-		"sourceType": "module",
 		"ecmaVersion": "latest",
+		"sourceType": "module",
 		"requireConfigFile": false,
 		"allowImportExportEverywhere": true
 	},
@@ -14,6 +11,7 @@ module.exports = {
 		"browser": true,
 		"node": true
 	},
+	"ignorePatterns": ["**/dist/*", "**/node_modules/"],
 	"overrides": [
 		{
 			"files": ["*.tsx", " *.ts"],
@@ -23,7 +21,7 @@ module.exports = {
 				"sourceType": 'module',
 			},
 			"plugins": ["@typescript-eslint"],
-			"extends":["./rules/typescript", "plugin:@typescript-eslint/recommended"]
+			"extends":["./rules/typescript"]
 		}
 	],
 }

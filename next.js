@@ -9,8 +9,9 @@ module.exports = {
 	},
 	"env": {
 		"browser": true,
-		"es2021": true,
+		"node": true,
 	},
+	"ignorePatterns": ["**/dist/*", "**/node_modules/"],
 	"overrides": [
 		{
 			"files": ["*.tsx", " *.ts"],
@@ -20,7 +21,7 @@ module.exports = {
 				"sourceType": 'module',
 			},
 			"plugins": ["@typescript-eslint"],
-			"extends":["./rules/typescript", "plugin:@typescript-eslint/recommended"]
+			"extends":["./rules/typescript"]
 		}
 	],
 };

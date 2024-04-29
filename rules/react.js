@@ -1,9 +1,5 @@
 module.exports = {
-	"extends": [
-		"./base",
-		"airbnb/hooks",
-		"plugin:react/recommended"
-	],
+	"extends": ["./base","plugin:react/recommended", "airbnb", "airbnb/hooks"],
 	"plugins": ["react"],
 	"rules": {
 		"react/react-in-jsx-scope": "off",												// OFF: Prevent missing React when using JSX
