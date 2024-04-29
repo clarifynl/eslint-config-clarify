@@ -2,7 +2,6 @@ module.exports = {
 	"extends": [
 		"./rules/base",
 		"prettier",
-		"plugin:@typescript-eslint/recommended"
 	],
 	"parser": "@babel/eslint-parser",
 	"parserOptions": {
@@ -17,14 +16,14 @@ module.exports = {
 	},
 	"overrides": [
 		{
-			"files": ['**/*.ts?(x)'],
+			"files": ["*.tsx", " *.ts"],
 			"parser": '@typescript-eslint/parser',
 			"parserOptions": {
 				"ecmaVersion": "latest",
 				"sourceType": 'module',
 			},
-			"plugins": ['@typescript-eslint'],
-			"extends":['./rules/typescript']
+			"plugins": ["@typescript-eslint"],
+			"extends":["./rules/typescript", "plugin:@typescript-eslint/recommended"]
 		}
 	],
 }

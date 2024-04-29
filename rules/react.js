@@ -1,8 +1,8 @@
 module.exports = {
 	"extends": [
 		"./base",
-		"plugin:react/recommended",
-		"airbnb/hooks"
+		"airbnb/hooks",
+		"plugin:react/recommended"
 	],
 	"plugins": ["react"],
 	"rules": {

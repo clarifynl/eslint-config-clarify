@@ -1,9 +1,5 @@
 module.exports = {
-	"extends": [
-		"./rules/react",
-		"prettier",
-		"plugin:@typescript-eslint/recommended"
-	],
+	"extends": ["./rules/react","prettier"],
 	"parser": "@babel/eslint-parser",
 	"parserOptions": {
 		"sourceType": "module",
@@ -18,21 +14,21 @@ module.exports = {
 		"browser": true,
 		"node": true
 	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
 	"overrides": [
 		{
-			"files": ['**/*.ts?(x)'],
+			"files": ["*.tsx", " *.ts"],
 			"parser": '@typescript-eslint/parser',
 			"parserOptions": {
 				"ecmaVersion": "latest",
 				"sourceType": 'module',
 			},
-			"plugins": ['@typescript-eslint'],
-			"extends":['./rules/typescript']
+			"plugins": ["@typescript-eslint"],
+			"extends":["./rules/typescript", "plugin:@typescript-eslint/recommended"]
 		}
 	],
-	"settings": {
-		"react": {
-			"version": "detect"
-		}
-	}
 }

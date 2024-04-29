@@ -1,5 +1,5 @@
 module.exports = {
-	"extends": ["./rules/next", "prettier", "plugin:@typescript-eslint/recommended"],
+	"extends": ["./rules/next", "prettier"],
 	"parser": "@babel/eslint-parser",
 	"parserOptions": {
 		"ecmaVersion": "latest",
@@ -13,14 +13,14 @@ module.exports = {
 	},
 	"overrides": [
 		{
-			"files": ['**/*.ts?(x)'],
+			"files": ["*.tsx", " *.ts"],
 			"parser": '@typescript-eslint/parser',
 			"parserOptions": {
 				"ecmaVersion": "latest",
 				"sourceType": 'module',
 			},
-			"plugins": ['@typescript-eslint'],
-			"extends":['./rules/typescript']
+			"plugins": ["@typescript-eslint"],
+			"extends":["./rules/typescript", "plugin:@typescript-eslint/recommended"]
 		}
 	],
 };
