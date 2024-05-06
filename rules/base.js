@@ -3,6 +3,7 @@ module.exports = {
 	"rules": {
 		"import/newline-after-import": "warn",									// Warn for new line after imports
 		"import/extensions": "off",												// OFF: Ensure consistent use of file extension within the import path
+		"import/no-unresolved": "off",											// OFF: Ensure imports point to a file/module that can be resolved --> problematic with docker
 
 		"dot-notation": "off",													// OFF: Access properties using the dot notation (foo.bar) instead of square-bracket notation (foo["bar"])
 		"no-multi-assign": ["error", { "ignoreNonDeclaration": true }], 		// Disallow use of chained assignment expressions (const foo = bar = 0;), allows chains that don’t include initializations
