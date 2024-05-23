@@ -19,5 +19,6 @@ module.exports = {
 			"allowNamedExports": false
 		}],																		// Allow use of functions before defined (but not variables)
 		"object-shorthand": ["error", "consistent"],							// Require consitent use of object shorthand, either all shorthands or none
+		"curly": ["error", "all"]												// Require curly braces for all control statements
 	}
 }
